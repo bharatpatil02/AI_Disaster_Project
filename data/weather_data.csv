@@ -1,0 +1,5 @@
+city,temperature,humidity,pressure,wind_speed,weather_condition,rainfall_1h
+Nashik,27.6,29,1010,6.67,Clouds,0
+Mumbai,27.99,54,1010,5.66,Smoke,0
+Pune,30.08,24,1009,0.45,Clear,0
+Nagpur,31.01,42,1005,1.03,Haze,0

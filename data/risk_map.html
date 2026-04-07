@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_4aa0ccd1001130e56e8a319437760c0e {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_4aa0ccd1001130e56e8a319437760c0e" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_4aa0ccd1001130e56e8a319437760c0e = L.map(
+                "map_4aa0ccd1001130e56e8a319437760c0e",
+                {
+                    center: [19.5, 75.0],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 6,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_001fa7ebbb40a7bed0fcc629e351eac5 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_001fa7ebbb40a7bed0fcc629e351eac5.addTo(map_4aa0ccd1001130e56e8a319437760c0e);
+        
+    
+            var marker_a75dfaf576fbcf36bbcb1d9ad3a93244 = L.marker(
+                [18.5204, 73.8567],
+                {
+}
+            ).addTo(map_4aa0ccd1001130e56e8a319437760c0e);
+        
+    
+            var icon_ff45a91c0e53eb879153216ab6f12390 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_78bccf3a65412e91c65bfb7989d5d772 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c962b268e936d77a2c2ff74f7e9ec45e = $(`<div id="html_c962b268e936d77a2c2ff74f7e9ec45e" style="width: 100.0%; height: 100.0%;">Pune - Flood (High)</div>`)[0];
+                popup_78bccf3a65412e91c65bfb7989d5d772.setContent(html_c962b268e936d77a2c2ff74f7e9ec45e);
+            
+        
+
+        marker_a75dfaf576fbcf36bbcb1d9ad3a93244.bindPopup(popup_78bccf3a65412e91c65bfb7989d5d772)
+        ;
+
+        
+    
+    
+                marker_a75dfaf576fbcf36bbcb1d9ad3a93244.setIcon(icon_ff45a91c0e53eb879153216ab6f12390);
+            
+    
+            var marker_4d0e622389f2011f4afe3bea8eac9f55 = L.marker(
+                [19.9975, 73.7898],
+                {
+}
+            ).addTo(map_4aa0ccd1001130e56e8a319437760c0e);
+        
+    
+            var icon_55afa00a3fec52ca4f292b47cb70256f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_39c089b7f262d1099a94c7eb24d28f38 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_918c925738b07d3c2627aa51160b1d43 = $(`<div id="html_918c925738b07d3c2627aa51160b1d43" style="width: 100.0%; height: 100.0%;">Nashik - Heatwave (Medium)</div>`)[0];
+                popup_39c089b7f262d1099a94c7eb24d28f38.setContent(html_918c925738b07d3c2627aa51160b1d43);
+            
+        
+
+        marker_4d0e622389f2011f4afe3bea8eac9f55.bindPopup(popup_39c089b7f262d1099a94c7eb24d28f38)
+        ;
+
+        
+    
+    
+                marker_4d0e622389f2011f4afe3bea8eac9f55.setIcon(icon_55afa00a3fec52ca4f292b47cb70256f);
+            
+    
+            var marker_5afbf00c95705632c0a3a81d3c8b0904 = L.marker(
+                [21.1458, 79.0882],
+                {
+}
+            ).addTo(map_4aa0ccd1001130e56e8a319437760c0e);
+        
+    
+            var icon_fab82f04a6b4014bf4a1a10c10c8bd29 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_2125beb73a71451032ca9cc322a2072f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3477c35360242d025503c4c82330f1e8 = $(`<div id="html_3477c35360242d025503c4c82330f1e8" style="width: 100.0%; height: 100.0%;">Nagpur - Wildfire (High)</div>`)[0];
+                popup_2125beb73a71451032ca9cc322a2072f.setContent(html_3477c35360242d025503c4c82330f1e8);
+            
+        
+
+        marker_5afbf00c95705632c0a3a81d3c8b0904.bindPopup(popup_2125beb73a71451032ca9cc322a2072f)
+        ;
+
+        
+    
+    
+                marker_5afbf00c95705632c0a3a81d3c8b0904.setIcon(icon_fab82f04a6b4014bf4a1a10c10c8bd29);
+            
+    
+            var marker_cade7071abf1bf649bbe902489f5cb20 = L.marker(
+                [19.076, 72.8777],
+                {
+}
+            ).addTo(map_4aa0ccd1001130e56e8a319437760c0e);
+        
+    
+            var icon_1425007685370438835ea6766e80e937 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_223030a0313fb874869bb285bbfd9e4c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_26ab7b42e1e0e2e81979fffd5f830a9c = $(`<div id="html_26ab7b42e1e0e2e81979fffd5f830a9c" style="width: 100.0%; height: 100.0%;">Mumbai - Flood (Low)</div>`)[0];
+                popup_223030a0313fb874869bb285bbfd9e4c.setContent(html_26ab7b42e1e0e2e81979fffd5f830a9c);
+            
+        
+
+        marker_cade7071abf1bf649bbe902489f5cb20.bindPopup(popup_223030a0313fb874869bb285bbfd9e4c)
+        ;
+
+        
+    
+    
+                marker_cade7071abf1bf649bbe902489f5cb20.setIcon(icon_1425007685370438835ea6766e80e937);
+            
+</script>
+</html>
